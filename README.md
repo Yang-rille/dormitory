@@ -22,10 +22,16 @@
 
 ### 部署过程
 1、本地安装数据库mysql8.0版本以上，安装教程：https://www.cnblogs.com/winton-nfs/p/11524007.html；
+
 2、修改src目录下的db.properties文件重的用户名秘密为自己的数据库的用户名和密码；
+
 3、进入mysql的bin目录下;
+
 4、执行 mysql -u root -p *****; create database dormitory; use dormitory（*****代表数据库密码）; 
+
 5、插入表和数据，执行source **/dormitory/dormitory.sql（**代表项目的路径）;
+
 6、d_admin表中所有的密码明文为：111111
+
 7、配置好tomacat,点击运行，查看效果。
 
