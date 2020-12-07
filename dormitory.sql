@@ -34,7 +34,7 @@ CREATE TABLE `d_admin` (
 -- ----------------------------
 -- Records of d_admin
 -- ----------------------------
-INSERT INTO `d_admin` VALUES ('1', 'yxd', '96E79218965EB72C92A549DD5A330112', 'yangxd', '138138138', '1', '高');
+INSERT INTO `d_admin` VALUES ('1', 'admin', '96E79218965EB72C92A549DD5A330112', '超级管理员', '138138138', '1', '高');
 INSERT INTO `d_admin` VALUES ('2', 'zj', '96E79218965EB72C92A549DD5A330112', '张杰', '138138138', '2', '低');
 INSERT INTO `d_admin` VALUES ('3', 'zh', '96E79218965EB72C92A549DD5A330112', '张欢', '138138138', '1', '高');
 INSERT INTO `d_admin` VALUES ('4', 'zk', '96E79218965EB72C92A549DD5A330112', '赵凯', '138138138', '2', '低');
