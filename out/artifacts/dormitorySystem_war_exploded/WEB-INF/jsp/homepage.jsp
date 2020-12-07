@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: hkw
@@ -53,7 +54,7 @@
     <%--</ul>--%>
     <ul class="layui-nav right" lay-filter="">
         <li class="layui-nav-item">
-            <a href="javascript:;"><img src="http://m.zhengjinfan.cn/images/0.jpg" class="layui-nav-img">${sessionScope.ad.a_username}</a>
+            <a href="javascript:;"><img src="<c:url value="/images/head_photo.png"/>" class="layui-nav-img">${sessionScope.ad.a_username}</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
                 <dd><a onclick="x_admin_show('切换帐号','loginOut')">切换帐号</a></dd>
                 <dd><a href="/loginOut">退出</a></dd>
